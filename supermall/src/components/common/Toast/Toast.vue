@@ -23,9 +23,6 @@ export default {
     };
   },
   methods: {
-    app() {
-      console.log(111);
-    },
     // //直接调用此方法即可显示提示信息
     showToast(message, duration = 500) {
       this.isShow = true;

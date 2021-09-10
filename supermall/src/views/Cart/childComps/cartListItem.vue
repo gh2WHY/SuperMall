@@ -35,7 +35,6 @@ export default {
   },
   methods : {
     btnClcik() {
-      console.log(111);
       this.item.checked = !this.item.checked;
     }
   }
